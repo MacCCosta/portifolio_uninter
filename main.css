@@ -1,0 +1,130 @@
+body header {
+  padding: 32px 32px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: orange;
+  background-color: #2f3640;
+}
+
+body {
+  background-color: floralwhite;
+}
+
+header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header li {
+  display: inline;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  margin-left: 32px;
+}
+
+header li a {
+  color: orange;
+  text-decoration: none;
+}
+
+header li a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.articles article {
+  width: 1366px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+}
+
+articles article img {
+  width: 528px;
+  margin-bottom: 2%;
+}
+
+.articles article p {
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+section {
+  padding: 32px 32px;
+}
+
+#o_que_portifolio .articles img {
+  /* Defina a largura da imagem conforme necessário */
+  width: 500px;
+  height: auto; /* A altura se ajustará automaticamente para manter a proporção */
+  margin-right: 64px;
+}
+
+#sobre_mim img {
+  width: 25%;
+  margin-right: 64px;
+}
+
+#formacao_educacional img {
+  margin-right: 64px;
+  width: 50%;
+}
+
+#portifolio {
+  margin-bottom: 32px;
+}
+
+#portifolio a {
+  font-size: 16px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #2f3640;
+  font-weight: bold;
+}
+
+#portifolio img {
+  margin-right: 64px;
+  width: 5%;
+}
+
+#contato img {
+  margin-left: 100px;
+  margin-right: 132px;
+}
+
+#contato .container {
+  display: flex;
+  align-items: center;
+  margin: auto;
+}
+
+#contato p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+form input,
+textarea,
+form button {
+  display: flex;
+  width: 360px;
+  margin-bottom: 8px;
+  padding: 8px;
+}
+
+form textarea {
+  resize: none;
+  height: 180px;
+}
+
+form button {
+  background-color: #2f3640;
+  font-weight: bold;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  display: grid;
+}
+
+form button:hover {
+  background-color: #3889fb;
+  text-decoration: underline;
+}
